@@ -1,0 +1,138 @@
+/* The whole screen */
+body {
+    background: linear-gradient(200deg,#f3e7e9,#e3eeff);
+    margin:0px;
+}
+
+header {
+    width: 100%;
+    background: linear-gradient(200deg , #f3e7e9, #d3b7d8);
+    padding: 10px 0px;
+    
+}
+
+ul {
+    text-align:right;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    margin:15px;
+    color: #a262ad;
+}
+
+/* The following block as named "Little Fish's Website" */
+.center {
+    background: linear-gradient(200deg , #f3e7e9, #d3b7d8);
+    height: 500px;
+    color: #a262ad;
+}
+
+.left-side {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+}
+
+.right-side {
+    
+    width: 130%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 35%;
+    transform: translateY(-50%);
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: #a262ad;
+}
+
+/* Contact square block */
+#contact {
+    background: linear-gradient(200deg, #d3b7d8, #f3e7e9);
+    border-radius: 25px;
+    padding: 30px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+    z-index: 2;
+}
+
+input {
+    background-color: transparent;
+    width: 70%;
+    border: none;
+    border-bottom: 1px solid #fff;
+    padding: 10px 0;
+}
+
+input::placeholder {
+    color: #a262ad;
+}
+
+input:focus {
+    color: #a262ad;
+    outline: none;
+    border-bottom: 1px solid #a262ad80;
+    transition: 0.5s;
+}
+
+label {
+    display: inline-flex;
+    width: 50px;
+}
+
+#button {
+    width: 70%;
+    margin-top: 10px;
+    background-color: #f6f6f6;
+    outline: none;
+    border-radius: 8px;
+    padding: 2px;
+    letter-spacing: 2px;
+    color:#a262ad;
+    border: none;
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: #a262ad;
+    color: #f6f6f6;
+    transition: background-color 0.5s ease;
+}
+
+#hidetext {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 75%;
+    color:#a262ad;
+    z-index: -1;
+    text-align: center;
+
+}
+
+/* bottom block */
+.bottom {
+    position: fixed;
+    bottom: 0px;
+    background: linear-gradient(200deg, #d3b7d8, #f3e7e9);
+    width: 100%;
+    padding: 10px 0px;
+}
+
+#bottom-text {
+    text-align: left;
+    padding-left: 30px;
+    color: #a262ad
+}

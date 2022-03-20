@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <title>Landing Page</title>
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li>Github</li>
+                <li>Portfolio</li>
+                <li>Contact</li>
+            </ul>
+        </header>
+
+        <section class="center">
+            <h1>Little Fish's Website</h1>
+
+            <div class="left-side">
+                <img src="./assets/img/wallpaper.jpg" alt="a picture" width="500px" height="auto">
+                <br><p>We all expect a dream-land, don't we?</p>
+            </div>
+
+            <div class="right-side">
+                <p>So, calm down and be happy, always.</p> <br>
+                <img src="./assets/img/cat.png" alt="calm cat" width="200px" height="auto">
+            </div>
+            
+        </section>
+
+        <h2>Contact Me</h2>
+
+        <section id="contact">
+            <input type="text" id="name" name="name" placeholder="Name"><br>
+            <input type="text" id="email" name="email" placeholder="Email"><br>
+            <button id="button">Click</button>
+        </section> <br>
+        <p id="hidetext">Webpage Not Finish. <br> But thank you for typing XD</p>
+
+        <section class="bottom">
+            <p id="bottom-text">2022 My New Website - by 小鱼</p>
+        </section>
+        <script>
+            let contactbox = document.getElementById('contact'); 
+            document.getElementById('button').addEventListener('click',function() {
+                contactbox.style.transform='translateY(-100%)';
+            })
+        </script>
+    </body>
+</html>
